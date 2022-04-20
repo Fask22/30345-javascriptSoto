@@ -10,7 +10,6 @@ function mostrarbestoShonen() {
 
 function showBest() {
     if (mostrarbestoShonen() == true) {
-        mostrarbestoShonen();
         bestoShonen.classList.toggle("d-none");
     }
 }
